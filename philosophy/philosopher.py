@@ -22,4 +22,4 @@ class Philosopher:
   
   @property
   def philosophize(self):
-    return choice(philosophical_sounding_questions)
+    return choice(self.philosophical_sounding_questions)
